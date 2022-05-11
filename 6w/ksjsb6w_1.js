@@ -6,8 +6,8 @@
 重写：
 
 */
-var res = '';//json填写
-var res1 = '';//助力填写
+var res = 'https://ghproxy.com/https://raw.githubusercontent.com/tbkuashidai/wool_js/main/ksjsb.json';//json填写
+var res1 = 'https://ghproxy.com/https://raw.githubusercontent.com/tbkuashidai/wool_js/main/ks.json';//助力填写
 const $$ = Envcc('');
 let acckey = $$["isNode"]() ? process["env"]["cdkey"] ? process["env"]["cdkey"] : '' : $$["getdata"]("cdkey") ? $$["getdata"]("cdkey") : '',
     all_msg = '',
